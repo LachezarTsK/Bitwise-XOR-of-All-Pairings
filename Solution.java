@@ -15,6 +15,6 @@ public class Solution {
         }
 
         return Arrays.stream(inputOne).reduce(0, (subtotalXOR, n) -> subtotalXOR ^ n)
-                ^ Arrays.stream(inputTwo).reduce(0, (subtotalXOR, n) -> subtotalXOR ^ n);
+               ^ Arrays.stream(inputTwo).reduce(0, (subtotalXOR, n) -> subtotalXOR ^ n);
     }
 }
